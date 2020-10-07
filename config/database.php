@@ -1,5 +1,5 @@
 <?php
-// $DATABASE_URL=parse_url('postgresql://root:r3zzq7apqdj7nvar@app-691dce12-ea91-4cb1-9b00-7758414eb736-do-user-6658749-0.b.db.ondigitalocean.com:25060/xitboosting?sslmode=require');
+ $DATABASE_URL=parse_url('postgresql://doadmin:l00ijch57z04cs4v@db-postgresql-ams3-03125-do-user-6658749-0.b.db.ondigitalocean.com:25060/defaultdb?sslmode=require');
 return [
     
 
@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'pgsql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -55,32 +55,32 @@ return [
             'engine' => null,
         ],
 
-        'pgsql' => [
-            'driver' => 'pgsql',
-            'host' => env('DB_HOST', '127.0.0.1'),
-            'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'root'),
-            'password' => env('DB_PASSWORD', ''),
-            'charset' => 'utf8',
-            'prefix' => '',
-            'schema' => 'public',
-            'sslmode' => 'prefer',
-        ],
-
-//          'pgsql' => [
+//         'pgsql' => [
 //             'driver' => 'pgsql',
-//             'host' => $DATABASE_URL["host"],
-//             'port' => $DATABASE_URL["port"],
-//             'database' => ltrim($DATABASE_URL["path"], "/"),
-//             'username' => $DATABASE_URL["user"],
-//             'password' => $DATABASE_URL["pass"],
+//             'host' => env('DB_HOST', '127.0.0.1'),
+//             'port' => env('DB_PORT', '5432'),
+//             'database' => env('DB_DATABASE', 'forge'),
+//             'username' => env('DB_USERNAME', 'root'),
+//             'password' => env('DB_PASSWORD', ''),
 //             'charset' => 'utf8',
 //             'prefix' => '',
-//             'prefix_indexes' => true,
 //             'schema' => 'public',
 //             'sslmode' => 'prefer',
 //         ],
+
+         'pgsql' => [
+            'driver' => 'pgsql',
+            'host' => $DATABASE_URL["host"],
+            'port' => $DATABASE_URL["port"],
+            'database' => ltrim($DATABASE_URL["path"], "/"),
+            'username' => $DATABASE_URL["user"],
+            'password' => $DATABASE_URL["pass"],
+            'charset' => 'utf8',
+            'prefix' => '',
+            'prefix_indexes' => true,
+            'schema' => 'public',
+            'sslmode' => 'prefer',
+        ],
 
     ],
 
