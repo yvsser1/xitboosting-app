@@ -56,7 +56,7 @@
         </button>
 
         <ul class="nav navbar-nav navbar-left navbar-top-links">
-            <li><a href="{{route('/')}}"><i class="fa fa-home fa-fw"></i> Elounion</a></li>
+            <li><a href="{{route('/')}}"><i class="fa fa-home fa-fw"></i> XIT Boosting</a></li>
         </ul>
 
         <ul class="nav navbar-right navbar-top-links">
