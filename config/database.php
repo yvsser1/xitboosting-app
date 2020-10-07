@@ -42,18 +42,17 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'db-mysql-nyc1-63511-do-user-6658749-0.b.db.ondigitalocean.com'),
-            'port' => env('DB_PORT', '25060'),
-            'database' => env('DB_DATABASE', 'defaultdb'),
-            'username' => env('DB_USERNAME', 'doadmin'),
-            'password' => env('DB_PASSWORD', 'i1vj11yahdu3nj8p'),
+            'host' => env('DB_HOST', '127.0.0.1'),
+            'port' => env('DB_PORT', '3306'),
+            'database' => env('DB_DATABASE', 'forge'),
+            'username' => env('DB_USERNAME', 'root'),
+            'password' => env('DB_PASSWORD', ''),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',
             'strict' => true,
             'engine' => null,
-            'sslmode' => 'REQUIRED',
         ],
 
         'pgsql' => [
