@@ -29,6 +29,6 @@ class SendVerification extends Mailable
      */
     public function build()
     {
-        return $this->from('system@elounion.com', 'Elounion.com')->subject('E-mail Verification')->view('mail_template.email_verification')->with('data', $this->data);
+        return $this->from('system@xitboosting.com', 'Xitboosting.com')->subject('E-mail Verification')->view('mail_template.email_verification')->with('data', $this->data);
     }
 }
