@@ -1,0 +1,914 @@
+@font-face {
+    font-family: RCR;
+    src: url('../fonts/RobotoCondensed-Regular.ttf');
+}
+@font-face {
+    font-family: RCB;
+    src: url('../fonts/RobotoCondensed-Bold.ttf');
+}
+@font-face {
+    font-family: RCL;
+    src: url('../fonts/RobotoCondensed-Light.ttf');
+}
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: hidden;
+}
+.service-id{
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+    width: 35%;
+}
+.project-id{
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+.no-p{
+	padding: 0;
+}
+.no-m{
+	margin: 0;
+}
+.h-100{
+	height: 100%;
+}
+.abs{
+	position: absolute;
+}
+.rel{
+	position: relative;
+}
+
+/* END Global Class */
+
+.section-1, .section-2{
+	position: relative;
+    padding-top: 49px;
+    height: 100%;
+}
+.menu-section{
+	padding-top: 1px;
+	text-align: center;
+	position: relative;
+	margin-left: 68px;
+	width: 170px;
+	height: 100%;
+}
+.logo{
+	margin: auto;
+}
+.sub-title{
+	margin-top: 15px;
+    line-height: 21px;
+	font-family: RCR;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.menu-list{
+	margin-top: 93px;
+    line-height: 29px;
+	font-family: RCB;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.item-list{
+	cursor: pointer;
+	padding: 10px 0;
+}
+.footer{
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font-family: RCR;
+	font-size: 15px;
+	color: #555;
+	text-transform: uppercase;
+}
+.fa{
+	color: #416AE0;
+}
+.tel-1{
+	margin-top: 12px;
+}
+.tel-2{
+	margin-top: 10px;
+	margin-bottom: 22px;
+}
+.mail{
+	margin-top: 10px;
+}
+.f-logo{
+	width: 79px;
+	height: 79px;
+	background: url('../../img/copy.png');
+	margin-top: 53px;
+}
+.f-logo div{
+	font-size: 15px;
+	color: #fff;
+    padding-top: 27px;
+}
+
+/* END Section 1 */
+
+.section-2{
+	padding-bottom: 48px;
+}
+.block{
+	border: 1px solid #ccc;
+	border-left: none;
+	margin-right: 102px;
+	height: 100%;
+}
+
+/* START about */
+
+.about{
+	padding: 15.61% 5% 12% 14.2%;
+	overflow: hidden;
+}
+.blue-box{
+	display: inline-block;
+	background-color: none;
+	width: 316px;
+	height: 306px;
+	position: relative;
+	visibility: hidden;
+}
+.l1, .l2, .l3, .l4 {
+  position: absolute;
+  background: transparent;
+  width: 0px;
+  height: 0px;
+  /*give each border a background color of black in css so that you don't need to animate it*/
+  background-color: #416AE0;
+}
+
+.l1 {
+  left: 0;
+  top: 0;
+  height: 36px;
+  width: 1px;
+}
+
+.l2 {
+  top: 0;
+  right: 0;
+  width: 36px;
+  height: 1px;
+}
+
+.l3 {
+  right: 0;
+  bottom: 0;
+  height: 36px;
+  width: 1px;
+}
+
+.l4 {
+  bottom: 0;
+  left: 0;
+  width: 36px;
+  height: 1px;
+}
+.about-h1{
+	font-family: RCB;
+	font-size: 67px;
+	display: inline-block;
+    margin-left: -163px;
+    margin-top: 26px;
+    vertical-align: top;
+    position: relative;
+}
+.about-p{
+	position: relative;
+	font-family: RCR;
+    font-size: 22px;
+    width: 600px;
+    display: none;
+    vertical-align: top;
+    margin-top: 124px;
+    margin-left: -54px;
+    line-height: 27px;
+    letter-spacing: 0.19px;
+}
+.typed-cursor{
+	display: none;
+}
+.about-btn{
+	width: 516px;
+	margin: auto;
+	margin-top: 16px;
+}
+.button{
+	visibility: hidden;
+	position: relative;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-family: RCB;
+	font-size: 15px;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid #4169E0;
+	padding: 18.5px 25.5px;;
+}
+.btn-last{
+	margin-left: 25px;
+}
+
+/* END about */
+
+/* START inbox */
+
+.team{
+	padding: 4.13% 5% 0% 14.2%;
+	overflow: hidden;
+	display: none;
+}
+.blue-box-section{
+	display: inline-block;
+	background: #4169E0;
+	width: 316px;
+	height: 156px;
+}
+.team-h1{
+	font-family: RCB;
+	font-size: 67px;
+	display: inline-block;
+	margin-left: -115px;;
+    margin-top: 26px;
+    vertical-align: top;
+}
+.team-p{
+	font-family: RCR;
+	font-size: 22px;
+	display: inline-block;
+    vertical-align: top;
+    margin-top: 118px;
+    margin-left: -5px;
+    letter-spacing: 0.2px;
+}
+.team-section{
+	margin-top: 63px;
+}
+.team-section h2{
+	font-family: RCB;
+	font-size: 35px;
+	color: #4169E0;
+    margin: 12.7px 0 10px;
+}
+.team-section p{
+	font-family: RCB;
+	font-size: 15px;
+	color: #000;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.parent-red{
+    position: absolute;
+    top: 125px;
+    left: 65px;
+    width: 200px;
+    height: 35px;
+}
+
+.red{
+    position: relative;
+    width: 200px;
+    height: 100%;
+    background-color: red;
+}
+
+/* END inbox */
+
+/* START project */
+
+.project{
+	padding: 4.13% 5% 0% 14.2%;
+	overflow: hidden;
+	display: none;
+}
+.project-h1{
+	font-family: RCB;
+	font-size: 67px;
+	display: inline-block;
+    margin-left: -155px;
+    margin-top: 26px;
+    vertical-align: top;
+}
+.project-p{
+	font-family: RCR;
+	font-size: 22px;
+	display: inline-block;
+    vertical-align: top;
+    margin-top: 118px;
+    margin-left: -43px;
+    letter-spacing: 0.2px;
+}
+.project-section{
+	margin-top: 63px;
+}
+.project-section .button{
+	margin: 16px 0 7px;
+}
+
+.project-section p{
+	font-family: RCB;
+	font-size: 35px;
+	color: #4169E0;
+	margin: 0;
+}
+
+/* END project */
+
+/* START service */
+
+.service{
+	padding: 4.13% 5% 0% 14.2%;
+	overflow: hidden;
+	display: none;
+}
+.service-h1{
+	font-family: RCB;
+	font-size: 67px;
+	display: inline-block;
+	margin-left: -158px;
+    margin-top: 26px;
+    vertical-align: top;
+}
+.service-p{
+	font-family: RCR;
+	font-size: 22px;
+	display: inline-block;
+    vertical-align: top;
+    margin-top: 118px;
+    margin-left: -48px;
+    letter-spacing: 0.2px;
+}
+.service-section{
+	margin-top: 62px;
+}
+.service-section h2{
+	font-family: RCB;
+	font-size: 35px;
+	color: #4169E0;
+	margin: 23px 0;
+}
+.service-section p{
+	font-family: RCB;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #000;
+	margin: 0;
+	padding: 18.8px 0px 20px 25px; 
+	border-left: 1px solid #7390E8;
+}
+
+/* END service */
+
+/* START get to touch */
+
+.touch{
+	padding: 4.13% 5% 0% 14.2%;
+	//padding: 7.13% 5% 0% 14.2%;
+	overflow: hidden;
+	display: none;
+}
+.touch-h1{
+	font-family: RCB;
+	font-size: 67px;
+	display: inline-block;
+    margin-left: -203px;
+    margin-top: 26px;
+    vertical-align: top;
+}
+.touch-p{
+	font-family: RCR;
+	font-size: 22px;
+	display: inline-block;
+    vertical-align: top;
+    margin-top: 118px;
+    margin-left: -94px;
+    letter-spacing: 0.2px;
+}
+.touch-section{
+	margin-top: 76px;
+}
+.touch-contact{
+	overflow: hidden;
+}
+.touch-input{
+	float: left;
+    width: 353px;
+}
+.touch-textarea{
+	float: left;
+	width: 503px;
+}
+.touch-input input{
+	width: 316px;
+    font-family: RCL;
+    padding: 14px 19px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    margin-bottom: 24px;
+}
+.touch-input input:last-child{
+	margin-bottom: 16px;
+}
+.touch-textarea textarea{
+	width: 100%;
+	height: 193px;
+    font-family: RCL;
+    font-size: 15px;
+    letter-spacing: 0px;
+    margin-bottom: 16px;
+    resize: none;
+}
+.touch-button{
+	overflow: hidden;
+	width: 856px;
+}
+.touch-button button{
+    float: right;
+    font-family: RCL;
+    font-size: 15px;
+    padding: 20.7px;
+    font-weight: bold;
+    color: #fff;
+    width: 133px;
+    background: #4169E0;
+    border: 0;
+	cursor: pointer;
+}
+.fa{
+	border: 1px solid #ccc;
+	padding: 10px 10px;
+	margin-right: 8px;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.touch-info{
+	font-family: RCR;
+	font-size: 18px;
+	font-weight: bold;
+}
+.touch-t{
+	margin-top: 45px;
+}
+
+/* END get to touch */
+
+/* START HOVERS */
+
+.logo:hover,.imgmail:hover,.imgphone:hover{
+	opacity: 0.7;
+}
+
+.mail:hover,.tel-1:hover,.tel-2:hover{
+    color: #000;
+}
+
+.button:hover{
+    background-color: rgb(65, 106, 224);
+    color: #fff;
+}
+
+.service-id:hover{
+    background-color: rgb(65, 106, 224);
+}
+
+.item-list:hover{
+	color: #4169E0;
+}
+
+/* END HOVERS */
+
+.service-item,.project-item,.team-item{
+	position: relative;
+	display: block;
+    cursor: pointer;
+}
+
+/* START 1600x900 */
+
+@media only screen and (max-width: 1600px) {
+	.section-1,.section-2{
+	    padding-top: 41px;
+	}
+	.logo img{
+		width: 65px;
+	}
+	.menu-section{
+		width: 148px;
+	    margin-left: 54px;
+	}
+	.sub-title{
+		margin-top: 12px;
+	    line-height: 18px;
+	    font-size: 15px;
+	}
+	.menu-list {
+	    margin-top: 74px;
+	    line-height: 24px;
+	    font-size: 15px;
+	}
+	.f-logo {
+    	width: 67px;
+    	height: 66px;
+    	margin-top: 44px;
+	}
+	.f-logo div {
+    	font-size: 12.5px;
+    	padding-top: 23px;
+	}
+	.footer{
+		font-size: 12.5px;
+	}
+	.imgmail{
+	    width: 25px;
+	}
+	.imgphone{
+	    width: 18px;
+	}
+	.tel-1{
+	    margin-top: 10px;
+	}
+	.tel-2 {
+    	margin-top: 10px;
+    	margin-bottom: 19px;
+	}
+	.section-2 {
+	    padding-bottom: 40px;
+	}
+	.block{
+		margin-right: 85px;
+	}
+	.blue-box {
+    	width: 264px;
+		height: 255px;
+	}
+	.about-h1 {
+    	font-size: 56px;
+    	margin-left: -137px;
+    	margin-top: 21px;
+	}
+	.about-p {
+	    font-size: 19px;
+	    width: 528px;
+	    margin-top: 105px;
+	    margin-left: -47px;
+	    line-height: 22px;
+	    letter-spacing: 0px;
+	}
+	.about-btn {
+    	margin-top: 13px;
+    	width: 433px;
+	}
+	.button{
+	    font-size: 12.5px;
+	    padding: 15.5px 24px;
+	}
+	.btn-last {
+    	margin-left: 18px;
+	}
+	.blue-box-section {
+	    width: 264px;
+	    height: 130px;
+	}
+	.project-h1 {
+		font-size: 55.87px;
+		margin-left: -130px;
+    	margin-top: 21px;
+	}
+	.service-h1 {
+	    font-size: 55.87px;
+	    margin-left: -133px;
+	    margin-top: 21px;
+	}
+	.team-h1 {
+	    font-size: 55.87px;
+	    margin-left: -98px;
+	    margin-top: 21px;
+	}
+	.touch-h1 {
+	    font-size: 55.87px;
+	    margin-left: -171px;
+	    margin-top: 21px;
+	}
+	.project-p {
+		font-size: 18.74px;
+		margin-top: 98px;
+	    margin-left: -38px;
+	    letter-spacing: 0;
+	}
+	.service-p {
+	    font-size: 18.74px;
+	    margin-top: 98px;
+	    margin-left: -41px;
+	    letter-spacing: 0;
+	}
+	.team-p {
+		font-size: 18.74px;
+		margin-top: 98px;
+	    margin-left: -5px;
+	    letter-spacing: 0;
+	}
+	.touch-p {
+		font-size: 18.74px;
+		margin-top: 98px;
+	    margin-left: -79px;
+	    letter-spacing: 0;
+	}
+	.service-section,.project-section,.team-section,.touch-section {
+    	margin-top: 46px;
+	}
+	.service-section img,.project-section img,.team-section img{
+		width: 264px;
+	}
+	.service-section h2 {
+	    font-size: 29.17px;
+	    margin: 17px 0;
+	}
+	.service-section p {
+	    font-size: 12.5px;
+	    padding: 18px 0px 19px 21px;
+	}
+	.project-section .button {
+    	margin: 12px 0 5px;
+	}
+	.project-section p {
+    	font-size: 29.17px;
+    }
+
+	.parent-red {
+    	top: 104px;
+    	left: 30px;
+    	height: 30px;
+	}
+
+	.team-section h2 {
+    	font-size: 29.17px;
+    	margin: 8px 0 8px;
+	}
+	.team-section p {
+    	font-size: 12.5px;
+	}
+
+    .touch-input{
+        width: 294px;
+    }
+    .touch-textarea{
+        width: 420px;
+    }
+    .touch-input input{
+        width: 264px;
+        padding: 11px 19px;
+        font-size: 12.5px;
+        margin-bottom: 21px;
+    }
+    .touch-input input:last-child{
+        margin-bottom: 13px;
+    }
+    .touch-textarea textarea{
+        width: 100%;
+        height: 161px;
+        font-size: 12.5px;
+        margin-bottom: 13px;
+    }
+    .touch-button{
+        width: 714px;
+    }
+    .touch-button button{
+        font-size: 12.5px;
+        padding: 17.3px;
+        width: 111px;
+    }
+	.fa{
+		padding: 10px 10px;
+		font-size: 15px;
+	}
+	.touch-info{
+		font-size: 15px;
+	}
+	.touch-t{
+		margin-top: 65px;
+	}
+}
+
+/* END 1600x900 */
+
+/* START 1366x768 */
+
+@media only screen and (max-width: 1366px) {
+	.section-1,.section-2{
+	    padding-top: 35px;
+	}
+	.logo img{
+		width: 56px;
+	}
+	.menu-section{
+		width: 120px;
+    	margin-left: 49px;
+	}
+	.sub-title{
+	    margin-top: 9px;
+    	line-height: 15px;
+	    font-size: 12.8px;
+	}
+	.menu-list {
+	    margin-top: 63px;
+    	line-height: 19px;
+	    font-size: 12.8px;
+	}
+	.f-logo {
+    	width: 57px;
+    	height: 56px;
+    	margin-top: 38px;
+	}
+	.f-logo div {
+    	font-size: 10.67px;
+	    padding-top: 20px;
+	}
+	.footer{
+		font-size: 10.67px;
+	}
+	.imgmail{
+	    width: 23px;
+	}
+	.imgphone{
+	    width: 15px;
+	}
+	.mail {
+    	margin-top: 7px;
+	}
+	.tel-1{
+	    margin-top: 8px;
+	}
+	.tel-2 {
+	    margin-top: 8px;
+    	margin-bottom: 15px;
+	}
+	.section-2 {
+	    padding-bottom: 34px;
+	}
+	.block{
+		margin-right: 72px;
+	}
+	.blue-box {
+    	width: 225px;
+    	height: 218px;
+	}
+	.about-h1 {
+    	font-size: 47.67px;
+	    margin-left: -117px;
+    	margin-top: 18px;
+	}
+	.about-p {
+	    font-size: 15.99px;
+	    width: 425px;
+	    margin-top: 89px;
+	    margin-left: -40px;
+	    line-height: 18.9px;
+	    letter-spacing: 0px;
+	}
+	.about-btn {
+    	margin-top: 9px;
+    	width: 368px;
+	}
+	.button{
+        font-size: 10.67px;
+    	padding: 13.5px 18px;
+	}
+	.btn-last {
+    	margin-left: 18px;
+	}
+	.blue-box-section {
+	    width: 225px;
+    	height: 111px;
+	}
+	.project-h1 {
+		font-size: 47.67px;
+		margin-left: -130px;
+    	margin-top: 21px;
+	}
+	.service-h1 {
+	    font-size: 47.67px;
+        margin-left: -113px;
+    	margin-top: 18px;
+	}
+	.team-h1 {
+	    font-size: 47.67px;
+	    margin-left: -98px;
+	    margin-top: 21px;
+	}
+	.touch-h1 {
+	    font-size: 47.67px;
+	    margin-left: -146px;
+	    margin-top: 21px;
+	}
+	.project-p {
+		font-size: 15.99px;
+		margin-top: 98px;
+	    margin-left: -38px;
+	    letter-spacing: 0;
+	}
+	.service-p {
+	    font-size: 15.99px;
+        margin-top: 84px;
+    	margin-left: -35px;
+	    letter-spacing: 0;
+	}
+	.team-p {
+		font-size: 15.99px;
+		margin-top: 98px;
+	    margin-left: -5px;
+	    letter-spacing: 0;
+	}
+	.touch-p {
+		font-size: 15.99px;
+		margin-top: 98px;
+	    margin-left: -68px;
+	    letter-spacing: 0;
+	}
+	
+	.service-section,.project-section,.team-section,.touch-section {
+    	margin-top: 21px;
+	}
+	.service-section img,.project-section img,.team-section img{
+		width: 226px;
+	}
+	.service-section h2 {
+	    font-size: 24.89px;
+	    margin: 14px 0;
+	}
+	.service-section p {
+	    font-size: 10.67px;
+	    padding: 16px 0px 13px 18px;
+	}
+	.project-section .button {
+    	margin: 9px 0 5px;
+	}
+	.project-section p {
+    	font-size: 24.89px;
+    }
+
+	.parent-red {
+		top: 89px;
+		left: 13px;
+    	height: 25px;
+	}
+
+	.team-section h2 {
+    	font-size: 24.89px;
+    	margin: 8px 0 8px;
+	}
+	.team-section p {
+    	font-size: 10.67px;
+	}
+
+    .touch-input{
+        width: 251px;
+    }
+    .touch-textarea{
+        width: 358px;
+    }
+    .touch-input input{
+        width: 225px;
+        padding: 9.7px 13px;
+        font-size: 10.67px;
+        margin-bottom: 16px;
+    }
+    .touch-input input:last-child{
+        margin-bottom: 11px;
+    }
+    .touch-textarea textarea{
+        height: 138px;
+        font-size: 10.67px;
+        margin-bottom: 11px;
+    }
+    .touch-button{
+        width: 610px;
+    }
+    .touch-button button{
+        font-size: 10.67px;
+        padding: 14.3px;
+        width: 95px;
+    }
+	.fa{
+		padding: 10px 10px;
+		font-size: 12.8px;
+	}
+	.touch-info{
+		font-size: 12.8px;
+	}
+	.touch-t{
+		margin-top: 95px;
+	}
+}
