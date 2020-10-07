@@ -1,5 +1,5 @@
 <?php
-$DATABASE_URL=parse_url('postgresql://root:r3zzq7apqdj7nvar@app-691dce12-ea91-4cb1-9b00-7758414eb736-do-user-6658749-0.b.db.ondigitalocean.com:25060/xitboosting?sslmode=require');
+// $DATABASE_URL=parse_url('postgresql://root:r3zzq7apqdj7nvar@app-691dce12-ea91-4cb1-9b00-7758414eb736-do-user-6658749-0.b.db.ondigitalocean.com:25060/xitboosting?sslmode=require');
 return [
     
 
