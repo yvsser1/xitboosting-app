@@ -1,5 +1,5 @@
 <?php
-// $DATABASE_URL=parse_url('postgres://jobxucvyszfpfh:cf54b99be6794176a3d289bd8f076d48bf403ea6eec713cb87c02849a01804b6@ec2-54-161-58-21.compute-1.amazonaws.com:5432/da6cqm2ch77o58');
+$DATABASE_URL=parse_url('postgresql://root:r3zzq7apqdj7nvar@app-691dce12-ea91-4cb1-9b00-7758414eb736-do-user-6658749-0.b.db.ondigitalocean.com:25060/xitboosting?sslmode=require');
 return [
     
 
@@ -68,14 +68,13 @@ return [
         //     'sslmode' => 'prefer',
         // ],
 
-        'pgsql' => [
+         'pgsql' => [
             'driver' => 'pgsql',
-            'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
-            'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'host' => $DATABASE_URL["host"],
+            'port' => $DATABASE_URL["port"],
+            'database' => ltrim($DATABASE_URL["path"], "/"),
+            'username' => $DATABASE_URL["user"],
+            'password' => $DATABASE_URL["pass"],
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,
