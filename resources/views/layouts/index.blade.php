@@ -47,8 +47,8 @@
             <nav>
                 <ul>
                     <li class='wow fadeInDown' data-wow-delay='0.8s'><a href='#aboutus'>About Us</a></li>
-                    <li class='wow fadeInDown' data-wow-delay='1s'><a href='#service'>Our Prices</a></li>
-                    <li class='wow fadeInDown' data-wow-delay='1.2s'><a href='#gallery'Our Work</a></li>
+                    <li class='wow fadeInDown' data-wow-delay='1s'><a href='#service'>Prices</a></li>
+                    <li class='wow fadeInDown' data-wow-delay='1.2s'><a href='#gallery'>Our Work</a></li>
                     <li class='wow fadeInDown' data-wow-delay='1.4s'><a href='#faq'>FAQ</a></li>
                     <li class='wow fadeInDown' data-wow-delay='1.6s'><a href='#contact'>Contact us</a></li>
                 </ul>
