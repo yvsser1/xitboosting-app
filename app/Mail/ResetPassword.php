@@ -29,6 +29,6 @@ class ResetPassword extends Mailable
      */
     public function build()
     {
-        return $this->from('system@elounion.com', 'Elounion.com')->subject('Reset Password')->view('mail_template.reset_password')->with('data', $this->data);
+        return $this->from('system@xitboosting.com', 'Xitboosting.com')->subject('Reset Password')->view('mail_template.reset_password')->with('data', $this->data);
     }
 }
