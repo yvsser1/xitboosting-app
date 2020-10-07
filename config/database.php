@@ -53,6 +53,7 @@ return [
             'prefix' => '',
             'strict' => true,
             'engine' => null,
+            'sslmode' => 'REQUIRED',
         ],
 
         // 'pgsql' => [
