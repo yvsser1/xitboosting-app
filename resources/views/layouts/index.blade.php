@@ -891,12 +891,36 @@
     
     <section id='gallery'>
         <div class='middle'>
-            <h1 class='wow fadeInDown' data-wow-delay='0.2s'>Gallery</h1>
+            <h1 class='wow fadeInDown' data-wow-delay='0.2s'>Our Work</h1>
             <div class='photos'>
                 <ul class='wow fadeInDown' data-wow-delay='0.7s'>
                  <li>
                         <div class='img' url="images/P4_ru.png" style='background-image: url("images/P4_ru.png");'></div>
-                        <div class='inf'>Boost</div>
+                        <div class='inf'>Plat Boost</div>
+                    </li>
+                      <li>
+                        <div class='img' url="images/gm.jpg" style='background-image: url("images/gm.jpg");'></div>
+                        <div class='inf'>GM Boost</div>
+                    </li>
+                      <li>
+                        <div class='img' url="images/master.jpg" style='background-image: url("images/master.jpg");'></div>
+                        <div class='inf'>Master Boost</div>
+                    </li>
+                      <li>
+                        <div class='img' url="images/diam.png" style='background-image: url("images/diam.png");'></div>
+                        <div class='inf'>Diamond Boost</div>
+                    </li>
+                      <li>
+                        <div class='img' url="images/gold.png" style='background-image: url("images/gold.png");'></div>
+                        <div class='inf'>Gold Boost</div>
+                    </li>
+                    <li>
+                        <div class='img' url="images/boost1.png" style='background-image: url("images/boost1.png");'></div>
+                        <div class='inf'>Clean Boost</div>
+                    </li>
+                    <li>
+                        <div class='img' url="images/boost2.png" style='background-image: url("images/boost2.png");'></div>
+                        <div class='inf'>Wins Boost</div>
                     </li>
                 </ul>
                 <div class='btn wow fadeInUp' data-wow-delay='1s'>Show More</div>
