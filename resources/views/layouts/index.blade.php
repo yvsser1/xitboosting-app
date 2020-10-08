@@ -16,7 +16,7 @@
     <meta name="og:site_name" content="xitboosting.com"/>
     <meta name="og:type" content="website"/>
     <meta name="og:title" content="xitboosting.com / Boost Account / Cheap Boost"/>
-    <meta name="og:url" content="http://www.xitboosting.com"/>
+    <meta name="og:url" content="https://www.xitboosting.com"/>
     <meta name="og:description" content="Trusted by Gamers. Proven Boosters. Track Progress, Spectate, Chat, Schedule & Pause Boost. Select Lines, Champions, Summoners & Stream Games. Choose between Regular and Test Text Duo. Select Between Solo/Duo. Encrypted VPN Connection. 24/7 Qualified Support."/>
     <meta name="og:image" content="{{ asset('css/assets/images/yone.png') }}"/>
 
@@ -320,7 +320,7 @@
             <img src='{{ asset('css/assets/images/close.svg') }}' class='close'>
             <div class='title information' style="text-transform: none;">Your email has been successfully verified.</div>
             <script>
-                setTimeout(function(){ window.location = 'https://xitboosting.com/'; }, 3000);
+                setTimeout(function(){ window.location = 'https://www.xitboosting.com/'; }, 3000);
             </script>
         </div>
     </div>
