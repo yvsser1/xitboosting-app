@@ -894,13 +894,10 @@
             <h1 class='wow fadeInDown' data-wow-delay='0.2s'>Gallery</h1>
             <div class='photos'>
                 <ul class='wow fadeInDown' data-wow-delay='0.7s'>
-                    @foreach($gallerys as $gallery)
-                    <li>
-                        @if($gallery->photo) <div class='img' url="{{$gallery->photo->name ? URL::to('images') .'/'. $gallery->photo->name : URL::to('images') .'/'.'400x400.png'}}" style='background-image: url("{{$gallery->photo->name ? URL::to('images') .'/'. $gallery->photo->name : URL::to('images') .'/'.'400x400.png'}}");'></div> @endif
-                        <div class='inf'>@if($gallery->name) {{ $gallery->name }} @endif</div>
+                 <li>
+                        <div class='img' url="images/P4_ru.png" style='background-image: url("images/P4_ru.png");'></div>
+                        <div class='inf'>Boost</div>
                     </li>
-                    @endforeach
-
                 </ul>
                 <div class='btn wow fadeInUp' data-wow-delay='1s'>Show More</div>
             </div>
