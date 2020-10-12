@@ -543,7 +543,7 @@ function getPrice(){
         dataType: 'JSON',
         headers: { 'X-CSRF-TOKEN': $('[name="csrf-token"]').attr('content') },
         success: function(msg){
-            $('.price h1').html(parseFloat(msg).toFixed(2)+ ' $');
+            $('.price h1').html(parseFloat(msg).toFixed(2)+ ' €');
 
             refresh_token();
         },
