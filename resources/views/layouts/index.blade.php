@@ -866,7 +866,7 @@
             <div class="total">
                 <div class="price">
                     <p>Total Price</p>
-                    <h1>0.00 $</h1>
+                    <h1>0.00 €</h1>
                 </div>
                 <form method="POST" action="{!! URL::to('paypal') !!}">
                     {{ csrf_field() }}
