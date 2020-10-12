@@ -155,7 +155,7 @@
                         <!-- /input-group -->
                     </li>
                     <li>
-                        <a href="{{route('admin')}}" class="active"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                        <a href="{{route('admin')}}" class="active"><i class="fa fa-dashboard fa-fw"></i> Dashboard Beta</a>
                     </li>
                     <li>
                         <a href="{{route('users')}}"><i class="fa fa-user fa-fw"></i> Users</a>
@@ -164,7 +164,7 @@
                         <a href="{{route('about')}}"><i class="fa fa-font fa-fw"></i> About Us</a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-wrench fa-fw"></i> Service Components</a>
+                        <a href="#"><i class="fa fa-wrench fa-fw"></i> Boosting Settings</a>
                         <ul class="nav nav-second-level">
                             <li>
                                 <a href="{{route('leagues')}}">Leagues</a>
@@ -201,13 +201,13 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="{{route('gallery')}}"><i class="fa fa-file-image-o fa-fw"></i> Gallery</a>
+                        <a href="{{route('gallery')}}"><i class="fa fa-file-image-o fa-fw"></i> Gallery(Not Working)</a>
                     </li>
                     <li>
                         <a href="{{route('faq')}}"><i class="fa fa-question-circle-o fa-fw"></i> FAQ</a>
                     </li>
                     <li>
-                        <a href="{{route('inbox')}}"><i class="fa fa-inbox fa-fw"></i> Inbox</a>
+                        <a href="{{route('inbox')}}"><i class="fa fa-inbox fa-fw"></i> Inbox Beta</a>
                     </li>
 
                 </ul>
