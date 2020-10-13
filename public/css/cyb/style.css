@@ -2100,15 +2100,15 @@ footer .middle .inf ul li a:hover {
 }
 
 .team .team_member h3{
-  color: #0072ff;
+  color: #81c644;
   font-size: 26px;
   margin-top: 50px;
 }
 
 .team .team_member p.role{
-  color: rgb(2, 2, 2);
+  color: #ccc;
   margin: 12px 0;
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase;
 }
 
@@ -2127,5 +2127,4 @@ footer .middle .inf ul li a:hover {
   width: 100px;
   height: 100px;
   padding: 5px;
-  border-radius: 50%;
 }
