@@ -957,7 +957,133 @@
             </div>
         </div>
     </section>
+    <div class="faq-wrapper">
+        <div class='middle'>
+            {{-- <h1 class='wow fadeInDown' data-wow-delay='0.2s'>Our Team</h1> --}}
+        <div class="team">
+            <div class="team_member">
+                <div class="team_img">
+                  <img src='{{ asset('css/assets/images/team1.png') }}' alt="Team_image">
+                </div>
+                <h3>Anivia Enthusiast</h3>
+                <p class="role">Admin/Booster</p>
+                <p>Elo: Grandmaster | Discord: Anivia Enthusiast#2378</p></div>
+          <div class="team_member">
+            <div class="team_img">
+              <img src="{{ asset('css/assets/images/team2.png') }}" alt="Team_image">
+            </div>
+            <h3>Ju</h3>
+            <p class="role">Management</p>
+            <p>Discord : Ju#0234</p>
+          </div>
+          
+          <div class="team_member">
+            <div class="team_img">
+              <img src="{{ asset('css/assets/images/team3.png') }}" alt="Team_image">
+            </div>
+            <h3>Martiz</h3>
+            <p class="role">Admin</p>
+            <p>Elo: Master | Discord: Ivo#1919</p>
+          </div>
+          <div class="team_member">
+            <div class="team_img">
+              <img src="{{ asset('css/assets/images/team4.png') }}" alt="Team_image">
+            </div>
+            <h3>Maj</h3>
+            <p class="role">Admin/Booster</p>
+            <p>Elo: Grandmaster | Discord: AB Maj#0483</p>
+          </div>
+          <div class="team_member">
+            <div class="team_img">
+              <img src="{{ asset('css/assets/images/team5.png') }}" alt="Team_image">
+            </div>
+            <h3>Jeff</h3>
+            <p class="role">Staff</p>
+            <p>Elo: Master | Discord: Jeff#1919</p>
+          </div>
+          <div class="team_member">
+            <div class="team_img">
+              <img src="{{ asset('css/assets/images/team6.png') }}" alt="Team_image">
+            </div>
+            <h3>Stormii</h3>
+            <p class="role">Booster</p>
+            <p>Elo: Grandmaster | Discord: Stormii#0588</p>
+          </div>
+          <div class="team_member">
+            <div class="team_img">
+              <img src="{{ asset('css/assets/images/team7.png') }}" alt="Team_image">
+            </div>
+            <h3>Artefacto</h3>
+            <p class="role">Booster</p>
+            <p>Elo: Grandmaster | Discord: artefacto#0387</p>
+          </div>
+          <div class="team_member">
+            <div class="team_img">
+              <img src="{{ asset('css/assets/images/team8.png') }}" alt="Team_image">
+            </div>
+            <h3>Ivo</h3>
+            <p class="role">Booster</p>
+            <p>Elo: Master | Discord: Ivo#1919</p>
+          </div>
+          <div class="team_member">
+            <div class="team_img">
+              <img src="{{ asset('css/assets/images/team9.png') }}" alt="Team_image">
+            </div>
+            <h3>Wezz</h3>
+            <p class="role">Booster</p>
+            <p>Elo: Master | Discord: Wezz#0001</p>
+          </div>
+          <div class="team_member">
+            <div class="team_img">
+              <img src="{{ asset('css/assets/images/team10.jpg') }}" alt="Team_image">
+            </div>
+            <h3>Yano</h3>
+            <p class="role">Booster</p>
+            <p>Elo: Diamond 2 | Discord: Yano#0913</p>
+          </div>
+          <div class="team_member">
+            <div class="team_img">
+              <img src="{{ asset('css/assets/images/team11.jpg') }}" alt="Team_image">
+            </div>
+            <h3>Grasdolf</h3>
+            <p class="role">Booster</p>
+            <p>Elo: Diamond 1 | Discord: grasdolf#7210</p>
+          </div>
+          <div class="team_member">
+            <div class="team_img">
+              <img src="{{ asset('css/assets/images/team12.jpg') }}" alt="Team_image">
+            </div>
+            <h3>FML</h3>
+            <p class="role">Booster</p>
+            <p>Elo: Grandmaster | Discord: Fml#2792</p>
+          </div>
+          <div class="team_member">
+            <div class="team_img">
+              <img src="{{ asset('css/assets/images/team13.jpg') }}" alt="Team_image">
+            </div>
+            <h3>BoostingMachine</h3>
+            <p class="role">Booster</p>
+            <p>Elo: Master | Discord: !BoostingMachine#4298</p>
+          </div>
+          <div class="team_member">
+            <div class="team_img">
+              <img src="{{ asset('css/assets/images/team14.png') }}" alt="Team_image">
+            </div>
+            <h3>Gotin</h3>
+            <p class="role">Booster</p>
+            <p>Elo: Master | Discord: Mn sum gotin#9555</p>
+          </div>
+          <div class="team_member">
+            <div class="team_img">
+              <img src="{{ asset('css/assets/images/team15.png') }}" alt="Team_image">
+            </div>
+            <h3>Lime</h3>
+            <p class="role">Booster</p>
+            <p>Elo: Diamond 1 | Discord: Lime#6540</p>
+          </div>
 
+        </div>
+      </div>	
     <section class='background-image' id='contact'>
         <div class='middle'>
             <h1 class='wow fadeInDown' data-wow-delay='0.2s'>Contact</h1>

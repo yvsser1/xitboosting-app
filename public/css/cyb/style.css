@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
 @font-face {
   font-family: "Roboto-Regular";
   src: url("../assets/fonts/roboto/Regular/Roboto-Regular.woff2") format("woff2"), url("../assets/fonts/roboto/Regular/Roboto-Regular.woff") format("woff"), url("../assets/fonts/roboto/Regular/Roboto-Regular.ttf") format("truetype");
@@ -2065,3 +2067,65 @@ footer .middle .inf ul li a:hover {
 }
 
 /*# sourceMappingURL=style.css.map */
+.wrapper{
+  margin-top: 10%;
+  background: url("../assets/images/bg1.jpg");
+  
+}
+
+.wrapper h1{
+  font-family: "Roboto-Medium";
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
+}
+
+.team .team_member h3{
+  color: #0072ff;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role{
+  color: rgb(2, 2, 2);
+  margin: 12px 0;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.team .team_member .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border-radius: 50%;
+}
