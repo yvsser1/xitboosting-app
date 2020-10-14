@@ -983,7 +983,7 @@
             </div>
             <h3>Martiz</h3>
             <p class="role">Admin</p>
-            <p>Elo: Master | Discord: Ivo#1919</p>
+            <p>Elo: Master | Discord: Martiz#3897</p>
           </div>
           <div class="team_member">
             <div class="team_img">
