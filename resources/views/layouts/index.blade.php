@@ -355,7 +355,7 @@
                     {{-- <li><a target="_blank" href='https://www.facebook.com/#' class='fab fa-facebook-f'></a></li>
                     <li><a target="_blank" href='https://www.instagram.com/#' class='fab fa-instagram'></a></li>
                     <li><a target="_blank" href='https://www.youtube.com/channel/#' class='fab fa-youtube'></a></li> --}}
-                    <li><a target="_blank" href='https://discord.gg/6nhUrdm' class='fab fa-discord'></a></li>
+                    <li><a target="_blank" href='https://discord.gg/8jG6h2' class='fab fa-discord'></a></li>
                 </ul>
             </div>
             <div class='container'>
@@ -1141,7 +1141,7 @@
             </div>
         <div class="inf">
             <ul>
-                <li><i class='fab fa-discord'></i> <a href='https://discord.gg/6nhUrdm'>JOIN OUR DISCORD!</a></li>
+                <li><i class='fab fa-discord'></i> <a href='https://discord.gg/8jG6h2'>JOIN OUR DISCORD!</a></li>
             </ul>
         </div>
     </div>
