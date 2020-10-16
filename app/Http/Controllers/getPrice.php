@@ -79,7 +79,7 @@ class getPrice extends Controller
             $price = $winPrice->price + ($winPrice->price * $servicePrice->price / 100);
 
             if ($request->game_service == 'duo') {
-                $price = $price*2;
+                $price = $price*1.5;
             }
 
             return $price ? $price : 0;
