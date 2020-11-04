@@ -1136,12 +1136,12 @@
                     {{-- <li><a target="_blank" href='https://www.facebook.com/EloUnion/' class='fab fa-facebook-f'></a></li>
                     <li><a target="_blank" href='https://www.instagram.com/EloUnion/' class='fab fa-instagram'></a></li>
                     <li><a target="_blank" href='https://www.youtube.com/channel/UClUbDjBKPl3_kVdo3EwHB9w' class='fab fa-youtube'></a></li> --}}
-                    <li><a target="_blank" href='https://discord.gg/6nhUrdm' class='fab fa-discord'></a></li>
+                    <li><a target="_blank" href='https://discord.gg/9wbKcGfeCq' class='fab fa-discord'></a></li>
                 </ul>
             </div>
         <div class="inf">
             <ul>
-                <li><i class='fab fa-discord'></i> <a href='https://discord.gg/8jG6h2'>JOIN OUR DISCORD!</a></li>
+                <li><i class='fab fa-discord'></i> <a href='https://discord.gg/9wbKcGfeCq'>JOIN OUR DISCORD!</a></li>
             </ul>
         </div>
     </div>
