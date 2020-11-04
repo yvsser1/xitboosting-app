@@ -355,7 +355,7 @@
                     {{-- <li><a target="_blank" href='https://www.facebook.com/#' class='fab fa-facebook-f'></a></li>
                     <li><a target="_blank" href='https://www.instagram.com/#' class='fab fa-instagram'></a></li>
                     <li><a target="_blank" href='https://www.youtube.com/channel/#' class='fab fa-youtube'></a></li> --}}
-                    <li><a target="_blank" href='https://discord.gg/8jG6h2' class='fab fa-discord'></a></li>
+                    <li><a target="_blank" href='https://discord.gg/9wbKcGfeCq' class='fab fa-discord'></a></li>
                 </ul>
             </div>
             <div class='container'>
